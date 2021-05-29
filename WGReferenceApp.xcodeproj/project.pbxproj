@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A921B3265C6E6600969F42 /* WGReferenceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A921B2265C6E6600969F42 /* WGReferenceAppApp.swift */; };
+		C8A921B5265C6E6600969F42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A921B4265C6E6600969F42 /* ContentView.swift */; };
+		C8A921B7265C6E6800969F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A921B6265C6E6800969F42 /* Assets.xcassets */; };
+		C8A921BA265C6E6800969F42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A921B9265C6E6800969F42 /* Preview Assets.xcassets */; };
+		C8A921CD265C70DB00969F42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921CC265C70DB00969F42 /* CoreLocation.framework */; };
+		C8A921CF265C70E700969F42 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921CE265C70E700969F42 /* libc++.tbd */; };
+		C8A921D1265C70F000969F42 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921D0265C70F000969F42 /* libz.tbd */; };
+		C8A921D3265C70FD00969F42 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921D2265C70FD00969F42 /* libxml2.tbd */; };
+		C8A921D5265C710C00969F42 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921D4265C710C00969F42 /* libsqlite3.tbd */; };
+		C8A921D6265C711D00969F42 /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921C8265C70BF00969F42 /* WhirlyGlobeMaplyComponent.framework */; };
+		C8A921D7265C711D00969F42 /* WhirlyGlobeMaplyComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8A921C8265C70BF00969F42 /* WhirlyGlobeMaplyComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8A921DC265C71D600969F42 /* WGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A921DB265C71D600969F42 /* WGView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A921C7265C70BF00969F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A921C2265C70BF00969F42 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE536FF1D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponent;
+		};
+		C8A921C9265C70BF00969F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A921C2265C70BF00969F42 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE537091D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponentTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8A921D8265C711D00969F42 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C8A921D7265C711D00969F42 /* WhirlyGlobeMaplyComponent.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8A921AF265C6E6600969F42 /* WGReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A921B2265C6E6600969F42 /* WGReferenceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGReferenceAppApp.swift; sourceTree = "<group>"; };
+		C8A921B4265C6E6600969F42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8A921B6265C6E6800969F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8A921B9265C6E6800969F42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8A921BB265C6E6800969F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A921C2265C70BF00969F42 /* WhirlyGlobeMaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WhirlyGlobeMaplyComponent.xcodeproj; path = "libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/WhirlyGlobeMaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		C8A921CC265C70DB00969F42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C8A921CE265C70E700969F42 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C8A921D0265C70F000969F42 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C8A921D2265C70FD00969F42 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C8A921D4265C710C00969F42 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C8A921DB265C71D600969F42 /* WGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A921AC265C6E6600969F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A921D5265C710C00969F42 /* libsqlite3.tbd in Frameworks */,
+				C8A921D3265C70FD00969F42 /* libxml2.tbd in Frameworks */,
+				C8A921D1265C70F000969F42 /* libz.tbd in Frameworks */,
+				C8A921CF265C70E700969F42 /* libc++.tbd in Frameworks */,
+				C8A921CD265C70DB00969F42 /* CoreLocation.framework in Frameworks */,
+				C8A921D6265C711D00969F42 /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A921A6265C6E6600969F42 = {
+			isa = PBXGroup;
+			children = (
+				C8A921B1265C6E6600969F42 /* WGReferenceApp */,
+				C8A921B0265C6E6600969F42 /* Products */,
+				C8A921C1265C70BF00969F42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A921B0265C6E6600969F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921AF265C6E6600969F42 /* WGReferenceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A921B1265C6E6600969F42 /* WGReferenceApp */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921D9265C71A000969F42 /* Resources */,
+				C8A921DA265C71B400969F42 /* Views */,
+				C8A921B2265C6E6600969F42 /* WGReferenceAppApp.swift */,
+				C8A921BB265C6E6800969F42 /* Info.plist */,
+				C8A921B8265C6E6800969F42 /* Preview Content */,
+			);
+			path = WGReferenceApp;
+			sourceTree = "<group>";
+		};
+		C8A921B8265C6E6800969F42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921B9265C6E6800969F42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8A921C1265C70BF00969F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921D4265C710C00969F42 /* libsqlite3.tbd */,
+				C8A921D2265C70FD00969F42 /* libxml2.tbd */,
+				C8A921D0265C70F000969F42 /* libz.tbd */,
+				C8A921CE265C70E700969F42 /* libc++.tbd */,
+				C8A921CC265C70DB00969F42 /* CoreLocation.framework */,
+				C8A921C2265C70BF00969F42 /* WhirlyGlobeMaplyComponent.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A921C3265C70BF00969F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921C8265C70BF00969F42 /* WhirlyGlobeMaplyComponent.framework */,
+				C8A921CA265C70BF00969F42 /* WhirlyGlobeMaplyComponentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A921D9265C71A000969F42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921B6265C6E6800969F42 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8A921DA265C71B400969F42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8A921B4265C6E6600969F42 /* ContentView.swift */,
+				C8A921DB265C71D600969F42 /* WGView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A921AE265C6E6600969F42 /* WGReferenceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A921BE265C6E6800969F42 /* Build configuration list for PBXNativeTarget "WGReferenceApp" */;
+			buildPhases = (
+				C8A921AB265C6E6600969F42 /* Sources */,
+				C8A921AC265C6E6600969F42 /* Frameworks */,
+				C8A921AD265C6E6600969F42 /* Resources */,
+				C8A921D8265C711D00969F42 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGReferenceApp;
+			productName = WGReferenceApp;
+			productReference = C8A921AF265C6E6600969F42 /* WGReferenceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A921A7265C6E6600969F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C8A921AE265C6E6600969F42 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C8A921AA265C6E6600969F42 /* Build configuration list for PBXProject "WGReferenceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A921A6265C6E6600969F42;
+			productRefGroup = C8A921B0265C6E6600969F42 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C8A921C3265C70BF00969F42 /* Products */;
+					ProjectRef = C8A921C2265C70BF00969F42 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C8A921AE265C6E6600969F42 /* WGReferenceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C8A921C8265C70BF00969F42 /* WhirlyGlobeMaplyComponent.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WhirlyGlobeMaplyComponent.framework;
+			remoteRef = C8A921C7265C70BF00969F42 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8A921CA265C70BF00969F42 /* WhirlyGlobeMaplyComponentTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WhirlyGlobeMaplyComponentTests.xctest;
+			remoteRef = C8A921C9265C70BF00969F42 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A921AD265C6E6600969F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A921BA265C6E6800969F42 /* Preview Assets.xcassets in Resources */,
+				C8A921B7265C6E6800969F42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A921AB265C6E6600969F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A921B5265C6E6600969F42 /* ContentView.swift in Sources */,
+				C8A921B3265C6E6600969F42 /* WGReferenceAppApp.swift in Sources */,
+				C8A921DC265C71D600969F42 /* WGView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8A921BC265C6E6800969F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8A921BD265C6E6800969F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A921BF265C6E6800969F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WGReferenceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6G8Q39S39;
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include/\"";
+				INFOPLIST_FILE = WGReferenceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjt.WGReferenceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include/MaplyBridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8A921C0265C6E6800969F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WGReferenceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6G8Q39S39;
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include/\"";
+				INFOPLIST_FILE = WGReferenceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjt.WGReferenceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include/MaplyBridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A921AA265C6E6600969F42 /* Build configuration list for PBXProject "WGReferenceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A921BC265C6E6800969F42 /* Debug */,
+				C8A921BD265C6E6800969F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A921BE265C6E6800969F42 /* Build configuration list for PBXNativeTarget "WGReferenceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A921BF265C6E6800969F42 /* Debug */,
+				C8A921C0265C6E6800969F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A921A7265C6E6600969F42 /* Project object */;
+}
